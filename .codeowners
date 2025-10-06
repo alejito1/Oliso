@@ -1,0 +1,8 @@
+# General rule for all files in the repository
+* @alejito1
+
+# Specific directory or file ownership
+/src/* @alejito1
+  
+# If a PR affects these files, only user 'admin' is requested for review
+/config/settings.json @owner
